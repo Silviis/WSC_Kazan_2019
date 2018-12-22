@@ -25,9 +25,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="myRIO_Project_Diagram.gif" Type="Document" URL="../documentation/myRIO_Project_Diagram.gif"/>
-			</Item>
+			<Item Name="Documentation Images" Type="Folder"/>
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
 		<Item Name="Controller.lvlib" Type="Library" URL="../Controller.lvlib"/>
@@ -92,6 +90,27 @@
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="CD Continuous Recursive Kalman Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/CD Continuous Recursive Kalman Filter.vi"/>
+				<Item Name="cd_Check Models Change for Continuous Recurisve Kalman Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Check Models Change for Continuous Recurisve Kalman Filter.vi"/>
+				<Item Name="NI_CD_Stochastic Systems.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Stochastic Systems/NI_CD_Stochastic Systems.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="cd_Verify Stochastic State-Space and Noise Models with xhat(0) and P(0).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Verify Stochastic State-Space and Noise Models with xhat(0) and P(0).vi"/>
+				<Item Name="CD Generic Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/CD Generic Error Handler.vi"/>
+				<Item Name="NI_CD_Dynamic Analysis.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Dynamic Analysis/NI_CD_Dynamic Analysis.lvlib"/>
+				<Item Name="NI_LinSys_Matrix Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_Matrix Math.lvlib"/>
+				<Item Name="NI_LinSys_Model Information.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Information.lvlib"/>
+				<Item Name="NI_LinSys_Model Typedefs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Typedefs.lvlib"/>
+				<Item Name="NI_LinSys_Model Creation.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Creation.lvlib"/>
+				<Item Name="NI_CD_State Feedback Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_State Feedback Control/NI_CD_State Feedback Control.lvlib"/>
+				<Item Name="NILVSim Report Error.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Utility/Implementation/NILVSim Report Error.vi"/>
+				<Item Name="cd_Continuous Recursive Kalman Filter Point-by-Point.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Continuous Recursive Kalman Filter Point-by-Point.vi"/>
+				<Item Name="cd_Differential Riccati Equation Point-by-Point.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Differential Riccati Equation Point-by-Point.vi"/>
+				<Item Name="CD Matrix inverse (PD) DLL.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/CD Matrix inverse (PD) DLL.vi"/>
+				<Item Name="cd_Calculate Continuous Recursive Kalman Filter Gain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Calculate Continuous Recursive Kalman Filter Gain.vi"/>
+				<Item Name="cd_Adjust Model for Non-Zero-Mean Noise_No_Case.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Adjust Model for Non-Zero-Mean Noise_No_Case.vi"/>
+				<Item Name="cd_Symmetric Matrix Integrator.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Symmetric Matrix Integrator.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="SIM limit type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM limit type.ctl"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
