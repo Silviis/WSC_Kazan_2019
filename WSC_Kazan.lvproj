@@ -32,7 +32,8 @@
 		<Item Name="Read_Xbox-Controller.vi" Type="VI" URL="../Read_Xbox-Controller.vi"/>
 		<Item Name="Read_Keyboard.vi" Type="VI" URL="../Read_Keyboard.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="ReadController.vi" Type="VI" URL="../ReadController.vi"/>
+		<Item Name="A-Star Simple Example.vi" Type="VI" URL="../../../../Downloads/A-Star Simple Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -90,27 +91,16 @@
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="CD Continuous Recursive Kalman Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/CD Continuous Recursive Kalman Filter.vi"/>
-				<Item Name="cd_Check Models Change for Continuous Recurisve Kalman Filter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Check Models Change for Continuous Recurisve Kalman Filter.vi"/>
-				<Item Name="NI_CD_Stochastic Systems.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Stochastic Systems/NI_CD_Stochastic Systems.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="cd_Verify Stochastic State-Space and Noise Models with xhat(0) and P(0).vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Verify Stochastic State-Space and Noise Models with xhat(0) and P(0).vi"/>
-				<Item Name="CD Generic Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/CD Generic Error Handler.vi"/>
-				<Item Name="NI_CD_Dynamic Analysis.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Dynamic Analysis/NI_CD_Dynamic Analysis.lvlib"/>
-				<Item Name="NI_LinSys_Matrix Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/NI_LinSys_Matrix Math.lvlib"/>
-				<Item Name="NI_LinSys_Model Information.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Information.lvlib"/>
-				<Item Name="NI_LinSys_Model Typedefs.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Typedefs.lvlib"/>
-				<Item Name="NI_LinSys_Model Creation.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Construction/NI_LinSys_Model Creation.lvlib"/>
-				<Item Name="NI_CD_State Feedback Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_State Feedback Control/NI_CD_State Feedback Control.lvlib"/>
-				<Item Name="NILVSim Report Error.vi" Type="VI" URL="/&lt;vilib&gt;/Simulation/Utility/Implementation/NILVSim Report Error.vi"/>
-				<Item Name="cd_Continuous Recursive Kalman Filter Point-by-Point.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Continuous Recursive Kalman Filter Point-by-Point.vi"/>
-				<Item Name="cd_Differential Riccati Equation Point-by-Point.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Differential Riccati Equation Point-by-Point.vi"/>
-				<Item Name="CD Matrix inverse (PD) DLL.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/CD Matrix inverse (PD) DLL.vi"/>
-				<Item Name="cd_Calculate Continuous Recursive Kalman Filter Gain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Calculate Continuous Recursive Kalman Filter Gain.vi"/>
-				<Item Name="cd_Adjust Model for Non-Zero-Mean Noise_No_Case.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Adjust Model for Non-Zero-Mean Noise_No_Case.vi"/>
-				<Item Name="cd_Symmetric Matrix Integrator.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Implementation/Implementation subVI/cd_Symmetric Matrix Integrator.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="SIM limit type.ctl" Type="VI" URL="/&lt;vilib&gt;/Simulation/Implementation/Shared/SIM limit type.ctl"/>
+				<Item Name="Servo.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Servo.vi"/>
+				<Item Name="NI_Robotics_OccupancyGridWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/OccupancyGridWorldMap/NI_Robotics_OccupancyGridWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_OccupancyGridMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/OccupancyGridNode/NI_Robotics_OccupancyGridMapNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractMapNode/NI_Robotics_AbstractMapNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractDstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractDstarNode/NI_Robotics_AbstractDstarNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractAstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractAstarNode/NI_Robotics_AbstractAstarNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractWorldMap/NI_Robotics_AbstractWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_AbstractDstarWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractDstarWorldMap/NI_Robotics_AbstractDstarWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_Navigation .lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Navigation/NI_Robotics_Navigation .lvlib"/>
+				<Item Name="NI_Robotics_Priority Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/Priority Queue/NI_Robotics_Priority Queue.lvclass"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -123,7 +113,7 @@
 	</Item>
 	<Item Name="myRIO-WSC-Kazan-TeamFinland" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">myRIO-WSC-Kazan-TeamFinland</Property>
-		<Property Name="alias.value" Type="Str">192.168.100.100</Property>
+		<Property Name="alias.value" Type="Str">172.16.0.1</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Default;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -208,8 +198,10 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Myrio_Public_Variables.lvlib" Type="Library" URL="../Myrio_Public_Variables.lvlib"/>
+		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
 		<Item Name="Read_Encoders.vi" Type="VI" URL="../Read_Encoders.vi"/>
+		<Item Name="PathPlanning.vi" Type="VI" URL="../PathPlanning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
@@ -252,9 +244,20 @@ DirectoryIndex index.htm
 				<Item Name="PWM Write.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/PWM Write.vi"/>
 				<Item Name="FPGA Open.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/FPGA Open.vi"/>
 				<Item Name="2 Encoders.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Encoders.vi"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="Servo.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Servo.vi"/>
+				<Item Name="NI_Robotics_OccupancyGridMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/OccupancyGridNode/NI_Robotics_OccupancyGridMapNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractMapNode/NI_Robotics_AbstractMapNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractDstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractDstarNode/NI_Robotics_AbstractDstarNode.lvclass"/>
+				<Item Name="NI_Robotics_AbstractAstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractAstarNode/NI_Robotics_AbstractAstarNode.lvclass"/>
+				<Item Name="NI_Robotics_OccupancyGridWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/OccupancyGridWorldMap/NI_Robotics_OccupancyGridWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_AbstractDstarWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractDstarWorldMap/NI_Robotics_AbstractDstarWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_AbstractWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractWorldMap/NI_Robotics_AbstractWorldMap.lvclass"/>
+				<Item Name="NI_Robotics_Priority Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/Priority Queue/NI_Robotics_Priority Queue.lvclass"/>
+				<Item Name="NI_Robotics_Navigation .lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Navigation/NI_Robotics_Navigation .lvlib"/>
+				<Item Name="NI_Robotics_Vector Field Histogram.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Obstacle Avoidance/Advanced Vector Field Histogram/NI_Robotics_Vector Field Histogram.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
