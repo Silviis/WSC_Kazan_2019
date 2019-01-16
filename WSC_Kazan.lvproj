@@ -32,8 +32,7 @@
 		<Item Name="Read_Xbox-Controller.vi" Type="VI" URL="../Read_Xbox-Controller.vi"/>
 		<Item Name="Read_Keyboard.vi" Type="VI" URL="../Read_Keyboard.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
-		<Item Name="ReadController.vi" Type="VI" URL="../ReadController.vi"/>
-		<Item Name="A-Star Simple Example.vi" Type="VI" URL="../../../../Downloads/A-Star Simple Example.vi"/>
+		<Item Name="PathPlanning.vi" Type="VI" URL="../PathPlanning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -88,19 +87,14 @@
 				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
 				<Item Name="2 Encoders.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Encoders.vi"/>
 				<Item Name="FPGA Open.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/FPGA Open.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="Servo.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Servo.vi"/>
-				<Item Name="NI_Robotics_OccupancyGridWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/OccupancyGridWorldMap/NI_Robotics_OccupancyGridWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_OccupancyGridMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/OccupancyGridNode/NI_Robotics_OccupancyGridMapNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractMapNode/NI_Robotics_AbstractMapNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractDstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractDstarNode/NI_Robotics_AbstractDstarNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractAstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractAstarNode/NI_Robotics_AbstractAstarNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractWorldMap/NI_Robotics_AbstractWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_AbstractDstarWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractDstarWorldMap/NI_Robotics_AbstractDstarWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_Navigation .lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Navigation/NI_Robotics_Navigation .lvlib"/>
-				<Item Name="NI_Robotics_Priority Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/Priority Queue/NI_Robotics_Priority Queue.lvclass"/>
+				<Item Name="NI_Robotics_Vector Field Histogram.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Obstacle Avoidance/Advanced Vector Field Histogram/NI_Robotics_Vector Field Histogram.lvlib"/>
+				<Item Name="Ping.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Ping.vi"/>
+				<Item Name="NavX.lvlib" Type="Library" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/NavX/NavX.lvlib"/>
+				<Item Name="I2C Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Channel.ctl"/>
+				<Item Name="I2C Read.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Read.vi"/>
+				<Item Name="I2C Write.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Write.vi"/>
+				<Item Name="I2C Config.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Config.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -113,7 +107,7 @@
 	</Item>
 	<Item Name="myRIO-WSC-Kazan-TeamFinland" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">myRIO-WSC-Kazan-TeamFinland</Property>
-		<Property Name="alias.value" Type="Str">172.16.0.1</Property>
+		<Property Name="alias.value" Type="Str">192.168.1.199</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Default;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -200,8 +194,8 @@ DirectoryIndex index.htm
 		<Item Name="Myrio_Public_Variables.lvlib" Type="Library" URL="../Myrio_Public_Variables.lvlib"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
-		<Item Name="Read_Encoders.vi" Type="VI" URL="../Read_Encoders.vi"/>
 		<Item Name="PathPlanning.vi" Type="VI" URL="../PathPlanning.vi"/>
+		<Item Name="Read_Encoders.vi" Type="VI" URL="../Read_Encoders.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
@@ -244,20 +238,14 @@ DirectoryIndex index.htm
 				<Item Name="PWM Write.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/PWM Write.vi"/>
 				<Item Name="FPGA Open.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/FPGA Open.vi"/>
 				<Item Name="2 Encoders.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Encoders.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="Servo.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Servo.vi"/>
-				<Item Name="NI_Robotics_OccupancyGridMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/OccupancyGridNode/NI_Robotics_OccupancyGridMapNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractMapNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractMapNode/NI_Robotics_AbstractMapNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractDstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractDstarNode/NI_Robotics_AbstractDstarNode.lvclass"/>
-				<Item Name="NI_Robotics_AbstractAstarNode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/MapNode/AbstractAstarNode/NI_Robotics_AbstractAstarNode.lvclass"/>
-				<Item Name="NI_Robotics_OccupancyGridWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/OccupancyGridWorldMap/NI_Robotics_OccupancyGridWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_AbstractDstarWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractDstarWorldMap/NI_Robotics_AbstractDstarWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_AbstractWorldMap.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/WorldMap/AbstractWorldMap/NI_Robotics_AbstractWorldMap.lvclass"/>
-				<Item Name="NI_Robotics_Priority Queue.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Navigation/shared/Priority Queue/NI_Robotics_Priority Queue.lvclass"/>
-				<Item Name="NI_Robotics_Navigation .lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Navigation/NI_Robotics_Navigation .lvlib"/>
+				<Item Name="Ping.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/Ping.vi"/>
 				<Item Name="NI_Robotics_Vector Field Histogram.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Obstacle Avoidance/Advanced Vector Field Histogram/NI_Robotics_Vector Field Histogram.lvlib"/>
+				<Item Name="NavX.lvlib" Type="Library" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/NavX/NavX.lvlib"/>
+				<Item Name="I2C Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Channel.ctl"/>
+				<Item Name="I2C Config.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Config.vi"/>
+				<Item Name="I2C Write.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Write.vi"/>
+				<Item Name="I2C Read.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/Background/I2C Read.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
