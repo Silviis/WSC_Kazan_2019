@@ -33,7 +33,10 @@
 		<Item Name="Read_Keyboard.vi" Type="VI" URL="../Read_Keyboard.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
 		<Item Name="PathPlanning.vi" Type="VI" URL="../PathPlanning.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="ReadBarcode.vi" Type="VI" URL="../ReadBarcode.vi"/>
+		<Item Name="ReadLogitech-controller.vi" Type="VI" URL="../ReadLogitech-controller.vi"/>
+		<Item Name="PC Main.vi" Type="VI" URL="../PC Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -135,6 +138,8 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="Barcode Search Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Instrument.llb/Barcode Search Options.ctl"/>
+				<Item Name="transform joystick axis.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Controller/transform joystick axis.vi"/>
+				<Item Name="one joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Controller/one joystick.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -156,7 +161,7 @@
 	</Item>
 	<Item Name="myRIO-WSC-Kazan-TeamFinland" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">myRIO-WSC-Kazan-TeamFinland</Property>
-		<Property Name="alias.value" Type="Str">172.16.0.1</Property>
+		<Property Name="alias.value" Type="Str">10.99.99.109</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Default;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -241,13 +246,13 @@ DirectoryIndex index.htm
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Myrio_Public_Variables.lvlib" Type="Library" URL="../Myrio_Public_Variables.lvlib"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
 		<Item Name="PathPlanning.vi" Type="VI" URL="../PathPlanning.vi"/>
 		<Item Name="Read_Encoders.vi" Type="VI" URL="../Read_Encoders.vi"/>
 		<Item Name="ReadBarcode.vi" Type="VI" URL="../ReadBarcode.vi"/>
 		<Item Name="Layouts.vi" Type="VI" URL="../../../EuroSkills Budapest 2018/Ropotti_v3.0_CustomFPGA/Ropotti/Layouts.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../../../Untitled 1.vi"/>
+		<Item Name="RT Main.vi" Type="VI" URL="../../../../Downloads/rt-pc_network-streams-message/rt-pc_network-streams-message/RT Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
