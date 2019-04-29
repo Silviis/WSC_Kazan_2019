@@ -40,6 +40,7 @@
 			<Item Name="Robotics Environment Simulator.vi" Type="VI" URL="../Robotics Environment Simulator.vi"/>
 			<Item Name="Robotics Environment Simulator ID List.txt" Type="Document" URL="../Robotics Environment Simulator ID List.txt"/>
 		</Item>
+		<Item Name="Read_Logitech.vi" Type="VI" URL="../Read_Logitech.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -197,6 +198,7 @@
 				<Item Name="NI_Robotics_Steering Class Types.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Steering/Class Type Definitions/NI_Robotics_Steering Class Types.lvlib"/>
 				<Item Name="2 Encoders.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Encoders.vi"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="transform joystick axis.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Controller/transform joystick axis.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -228,7 +230,7 @@
 	</Item>
 	<Item Name="myRIO-WSC-Kazan-TeamFinland" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">myRIO-WSC-Kazan-TeamFinland</Property>
-		<Property Name="alias.value" Type="Str">172.22.11.2</Property>
+		<Property Name="alias.value" Type="Str">172.16.0.1</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,762F;FPGAPersonality,myRIO_FP_Default;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">762F</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -326,7 +328,6 @@ DirectoryIndex index.htm
 		<Item Name="Test Ultrasonic Sensor.vi" Type="VI" URL="../Useful Examples/Test Ultrasonic Sensor.vi"/>
 		<Item Name="SetMotors.vi" Type="VI" URL="../SetMotors.vi"/>
 		<Item Name="PID_array.vi" Type="VI" URL="../PID_array.vi"/>
-		<Item Name="PID_array1.vi" Type="VI" URL="../PID_array1.vi"/>
 		<Item Name="SpeedCalc.vi" Type="VI" URL="../SpeedCalc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
