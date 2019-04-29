@@ -321,14 +321,11 @@ DirectoryIndex index.htm
 		<Item Name="Motors.vi" Type="VI" URL="../Motors.vi"/>
 		<Item Name="ReadBarcode.vi" Type="VI" URL="../ReadBarcode.vi"/>
 		<Item Name="Adjust_PID-Controller.vi" Type="VI" URL="../Adjust_PID-Controller.vi"/>
-		<Item Name="PID_diy.vi" Type="VI" URL="../PID_diy.vi"/>
 		<Item Name="Calibrate Sensor Angle.vi" Type="VI" URL="../Useful Examples/Calibrate Sensor Angle.vi"/>
 		<Item Name="Starter Kit 2.0 Roaming.vi" Type="VI" URL="../Useful Examples/Starter Kit 2.0 Roaming.vi"/>
 		<Item Name="Test Motors.vi" Type="VI" URL="../Useful Examples/Test Motors.vi"/>
 		<Item Name="Test Ultrasonic Sensor.vi" Type="VI" URL="../Useful Examples/Test Ultrasonic Sensor.vi"/>
 		<Item Name="SetMotors.vi" Type="VI" URL="../SetMotors.vi"/>
-		<Item Name="PID_array.vi" Type="VI" URL="../PID_array.vi"/>
-		<Item Name="SpeedCalc.vi" Type="VI" URL="../SpeedCalc.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
@@ -462,6 +459,7 @@ DirectoryIndex index.htm
 			<Item Name="Calculate Driving Direction.vi" Type="VI" URL="../Useful Examples/Calculate Driving Direction.vi"/>
 			<Item Name="Drive Away from Obstacle.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/robotics/Starter Kit 2.0/Support VIs/Drive Away from Obstacle.vi"/>
 			<Item Name="Drive Towards Gap.vi" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2018/examples/robotics/Starter Kit 2.0/Support VIs/Drive Towards Gap.vi"/>
+			<Item Name="PID_array.vi" Type="VI" URL="../PID_array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
