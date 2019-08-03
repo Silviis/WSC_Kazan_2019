@@ -5,7 +5,7 @@ from pathfinding.core.diagonal_movement import DiagonalMovement
 from pathfinding.core.grid import Grid
 from pathfinding.finder.a_star import AStarFinder
 
-path = "/home/silvis/code/python/img_to_path/"
+path = "/home/silvis/code/WSC_Kazan_2019/"
 # path = "C:/Users/Eetu Silvenoinen/Desktop/WorldSkills Kazan 2019/WSC_Kazan/"
 
 temp=Image.open(path + "map.bmp")
@@ -35,4 +35,5 @@ fig, ax = plt.subplots()
 ax.imshow(img)
 zip(*path)
 plt.scatter(*zip(*path),s=2)
+
 plt.show()
