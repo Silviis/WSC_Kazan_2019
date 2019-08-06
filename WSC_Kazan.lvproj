@@ -26,6 +26,7 @@
 			<Item Name="myRIO Project Documentation.html" Type="Document" URL="../documentation/myRIO Project Documentation.html"/>
 		</Item>
 		<Item Name="PC Main.vi" Type="VI" URL="../PC Main.vi"/>
+		<Item Name="ReadPath.vi" Type="VI" URL="../ReadPath.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -174,6 +175,7 @@ DirectoryIndex index.htm
 		<Item Name="Balls.vi" Type="VI" URL="../Balls.vi"/>
 		<Item Name="SteeringFrame.vi" Type="VI" URL="../SteeringFrame.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
+		<Item Name="CheckInRange" Type="VI" URL="../../../GitRepos/WSC_Kazan_2019/SubVIs/CheckInRange"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="2 Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Studica/Studica Toolkit/MD2/2 Motor.vi"/>
